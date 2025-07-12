@@ -1,0 +1,34 @@
+shido@blazewolf:~$ git clone https://github.com/sali9043/task-1.git
+Cloning into 'task-1'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+shido@blazewolf:~$ ls
+folder  task-1  test
+shido@blazewolf:~$ cd task-1/
+shido@blazewolf:~/task-1$ ls
+README.md
+shido@blazewolf:~/task-1$ touch output.txt code.txt log.txt
+shido@blazewolf:~/task-1$ git init
+Reinitialized existing Git repository in /home/shido/task-1/.git/
+shido@blazewolf:~/task-1$ ls
+code.txt  log.txt  output.txt  README.md
+shido@blazewolf:~/task-1$ git add .
+shido@blazewolf:~/task-1$ git commit -m task -1 performed pwskills
+[main 3a6c6ad] task -1 performed pwskills
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 code.txt
+ create mode 100644 log.txt
+ create mode 100644 output.txt
+shido@blazewolf:~/task-1$ git push
+Username for 'https://github.com': sali9043
+Password for 'https://sali9043@github.com':
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 295 bytes | 295.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/sali9043/task-1.git
+   1d00215..3a6c6ad  main -> main
